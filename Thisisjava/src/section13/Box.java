@@ -1,16 +1,17 @@
 package section13;
 
-public class Box<TT> {
-	private TT t;
+public class Box<T> {
+	private T t;
 
-	public TT getObject() {
+	public T getT() {
 		return t;
 	}
 
-	public void setObject(TT t) {
+	public void setT(T t) {
 		this.t = t;
 	}
-	
+
+
 
 
 }
